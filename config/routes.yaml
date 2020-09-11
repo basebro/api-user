@@ -9,3 +9,8 @@ fos_oauth_server_authorize:
 
 fos_user:
   resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+user_info:
+  path: api/user_info
+  controller: App\Controller\ApiController::userInfoAction
+  methods: GET|POST
