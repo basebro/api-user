@@ -25,4 +25,18 @@ class Client extends BaseClient
      * @ORM\Column(name="type", type="string", length=150, nullable=true)
      */
     protected $type;
+
+    /**
+     * Set id
+     *
+     * @param string $id
+     *
+     * @return string
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
 }
