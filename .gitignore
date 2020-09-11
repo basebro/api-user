@@ -9,4 +9,5 @@
 /src/.preload.php
 /var/
 /vendor/
+/migrations/*
 ###< symfony/framework-bundle ###
